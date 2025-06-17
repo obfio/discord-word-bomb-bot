@@ -15,11 +15,11 @@ Fast dictates how the bot will play. If it's true, it will send answers basicall
 There's a localhost HTTP server at :8080/command, right now it's just used to send chat messages. `POST` with `{"command": 1, "message": "https://antibot.blog"}` and it will send a chat message.
 
 # Known Issues
-Sometimes when a host leaves the lobby, it will crash. 
-If a game closes, it will crash.
-If a game goes past 5000 rounds, it will crash (because the game closes).
-If you close the program and instantly try to re-open it, it will crash because the server won't let you rejoin that fast.
-It does not properly handle any errors. Leading to a lot of crashing.
+Sometimes when a host leaves the lobby, it will crash. <br>
+If a game closes, it will crash. <br>
+If a game goes past 5000 rounds, it will crash (because the game closes). <br>
+If you close the program and instantly try to re-open it, it will crash because the server won't let you rejoin that fast. <br>
+It does not properly handle any errors. Leading to a lot of crashing.<br>
 
 # Showcase
 ![WPM leaderboard spot](images/WPM.png)
